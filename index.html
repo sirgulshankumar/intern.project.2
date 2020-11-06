@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Voter Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <style media="screen">
+      .mySlides {display:none;}
+    </style>
+  </head>
+
+<body>
+  <header>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/flag.png" alt="Logo">
+        </div>
+        <ul>
+            <li class="item"><a href="#">राष्ट्रीय मतदाता सेवा डेमो पोर्टल</a></li>
+            <li class="item"><a href="#">NATIONAL VOTER SERVICES DEMO PORTAL</a></li>
+        </ul>
+        <div id="logo2">
+            <img src="img/logo.png" alt="vote">
+        </div>
+    </nav>
+  </header>
+
+  <nav id="nav1">
+      <div class="">
+        <input type="submit" value="A-" id="button1">
+        <input type="submit" value="A+" id="button1">
+      </div>
+      <div id="">
+        <label for="District">Select Language :  </label>
+        <select name="district" id="gry">
+            <option value=" select"> Hindi</option>
+            <option value=" lorem"> English</option>
+            <option value="lore"> Assamese</option>
+            <option value="ore">Urdu</option>
+        </select><br>
+      </div>
+  </nav>
+
+
+<form action="backend.php">
+  <nav id="nav2">
+      <div id="nav2type">
+          <p>Type 6<br>[See rule 13(1) and 26]</p>
+      </div>
+  </nav>
+
+
+  <nav id="nav3">
+      <div id="nav3type">
+          <p>Application for inclusion of name in the electoral roll for the first time due to the transfer of voter or any other constituency from any one constituency</p>
+      </div>
+  </nav>
+
+<br><p id="body1type">In Service<br>Electoral Registration Officer</p>
+
+   <div class="main">
+      <label for="state">State*</label>
+      <select name="state" id="gry">
+          <option value=" select"> Select</option>
+          <option value=" Assam"> Assam</option>
+          <option value=" Bihar"> Bihar</option>
+      </select>
+
+      <label for="District"> District</label>
+      <select name="district" id="gry">
+          <option value=" select"> Select</option>
+          <option value=" lorem"> lorem</option>
+          <option value="lore"> lore</option>
+          <option value="ore"> ore</option>
+      </select><br>
+
+      <div>
+          <label for="legislative">Legislative Assembly/Parliamentry/Constituency*</label>
+          <select name="legislative" id="gry">
+              <option value="select"> Select</option>
+              <option value="lorem"> legislative</option>
+              <option value="lore"> Parliamentry</option>
+              <option value="ore"> Constituency</option>
+          </select><br><br><br>
+      </div>
+  </div>
+
+  <div id="body2type">
+      I request that my name be included in electoral rolls for all the aforesaid areas: <br>
+      <div id="body3type">
+
+          <input type="radio" name="myvoter"> First time voter<br> <input type="radio" name="myvoter"> Due to
+          transfer from meeting areas
+      </div><br><br>Below are specifications in support of my claim to be included in the electoral rolls.
+  </div><br>
+
+  <nav id="nav3">
+      <div id="specifications">
+          <p id="nav3type">Mandatory specifications</p>
+      </div>
+  </nav><br>
+
+  <div id="body3type">
+    <div>
+        (A)Name* <input type="text" name="myName" id="name" placeholder="(In English)"> <input type="text" name="in regional" id="name" placeholder="(In Regional)">
+    </div><br>
+    <div>
+        (B) Surname (if any) * <input type="text" name="mySurName" id="name"placeholder="(In English)" > <input type="text" name="in regional"
+            id="Surname"placeholder="(In Regional)">
+    </div><br>
+    <div>
+        (C) Name of the applicant's relative* <input type="text" name="relative" id="name"placeholder="(In English)"> <input type="text"
+            name="in regional" id="relative"placeholder="(In Regional)">
+    </div><br>
+    <div>
+        Nickname of the applicant's relative * <input type="text" name="myrelativeapplocant" id="name"placeholder="(In English)"> <input
+            type="text" name="in regional" id="relativeapplicant"placeholder="(In Regional)">
+    </div><br>
+    <label for="relo">(D)Type of Relationship* </label>
+    <select name="relo" id="gry">
+        <option value=" select"> Select</option>
+        <option value=" Assam"> bro</option>
+        <option value=" Bihar"> sis</option>
+    </select><br><br>
+    <input type="radio">
+    <label for="age">(E) Age [on January 1 of the current calender] * </label>
+    <input type="number 2019 selected">
+    <select name="year" id="gry">
+        <option value=" select"> year</option>
+        <option value=" Assam"> 20</option>
+        <option value=" Bihar"> sis</option>
+    </select>
+    <select name="month" id="gry">
+        <option value=" select"> month</option>
+        <option value=" Assam"> 20</option>
+        <option value=" Bihar"> sis</option>
+    </select><br>
+    Or<br>
+    <input type="radio">
+    (F) Date of birth (in the form of day/ month/ year) (if known) * <input type="date"><br><br>
+    <label for="gender">G) Applicant's gender * </label>
+    <select name="gender" id="gry">
+        <option value=" select"> Select</option>
+        <option value=" Assam"> male</option>
+        <option value=" Bihar"> female</option>
+    </select><br><br>
+</div>
+
+
+
+<nav id="nav3">
+    <div id="body2type">
+        <p>(H) Current address, whose applicant is nominally resident</p>
+    </div>
+</nav><br>
+
+<div id="body3type">
+  <div>
+      House no* <input type="text" name="houseno" id="houseno"placeholder="(In English)"> <input type="text" name="in regional"
+          id="houseno" placeholder="(In Regional)">
+  </div><br><br>
+  <div>
+      Street / area / location * <input type="text" name="mystreet" id="street"placeholder="(In English)"> <input type="text"
+          name="in regional" id="street" placeholder="(In Regional)">
+  </div><br><br>
+  <div>
+      City / Village: * <input type="text" name="myName" id="name"placeholder="(In English)"> <input type="text" name="in regional"
+          id="name" placeholder="(In Regional)">
+  </div><br><br>
+  <div>
+      Post Office: * <input type="text" name="myName" id="name"placeholder="(In English)"> <input type="text" name="in regional" id="name" placeholder="(In Regional)">
+  </div><br><br>
+  <div>
+      Pin Code * <input type="text" name="myName" id="name">
+  </div><br><br>
+  <label for="gender">State / Union Territory </label>
+  <select name="gender" id="gry">
+      <option value=" select"> Select</option>
+      <option value=" Assam"> male</option>
+      <option value=" Bihar"> female</option>
+  </select><br><br>
+  <label for="gender">District </label>
+  <select name="gender" id="gry">
+      <option value=" select"> Select</option>
+      <option value=" Assam"> male</option>
+      <option value=" Bihar"> female</option>
+  </select><br><br>
+
+
+  <div>
+      Family / Neighbour Epic No <input type="text" name="myName" id="name"> <input type="text" name="in regional"
+          id="name">
+  </div><br>
+</div>
+
+
+<nav id="nav3">
+    <div id="body2type">
+        <p>Optional specialties</p>
+    </div>
+</nav><br>
+
+<div id="body3type">
+  <div>
+      (T)Disability(if any):<br> <input type="radio" name="disability"> Visual Impairment <input type="radio"
+          name="disability"> Speech and hearing Impairment
+      <input type="radio" name="disability"> Motion disabling <input type="radio" name="disability"> other <input
+          type="text" name="disability" id="disability">
+  </div><br><br>
+  <div>
+      (Th)Email ID (optional) <input type="email" name="email" id="email">
+  </div><br><br>
+  <div>
+      (D) Mobile number (optional) +91 <input type="number" name="Mobile" id="Mobile">
+  </div><br>
+</div>
+
+<nav id="nav3">
+    <div id="body2type">
+        <p>Upload supporting documents (Supported formats .jpg, .png, .bmp, .jpeg) (max. 2MB) <a href="#">(List of supported documents) </a>   </p>
+    </div>
+</nav><br>
+
+<div id="body3type">
+  <div>
+      Your photo* <br><input type="file" name="photo" id="gry1">
+  </div><br>
+  <div>
+      Age Proof* <br><input type="file" name="age" id="gry1"> Document type*<select name="age" id="gry">
+          <option value="select">Select</option>
+          <option value="1">lorem</option>
+      </select>
+  </div><br><br>
+  <div>
+      Address Proof* <br><input type="file" name="Address" id="gry1"> Document type*<select name="Address"
+          id="gry">
+          <option value="select">Select</option>
+          <option value="1">lorem</option>
+      </select>
+  </div><br>
+</div>
+
+<nav id="nav3">
+    <div id="body2type">
+        <p>Declaration </p>
+    </div>
+</nav><br>
+
+<div id="body1type">
+  I declare I declare that according to my best knowledge and belief<br>
+     I am a citizen of India and of my birth;<br><br>
+     <div id="body3type">
+       City/ Village <input type="text"><br><br>
+       <label for="gender">Select State* </label>
+       <select name="gender" id="gry">
+           <option value=" select"> Select</option>
+           <option value=" Assam"> Assam</option>
+           <option value=" Bihar"> Bihar</option>
+       </select>
+       <label for="gender">District* </label>
+       <select name="gender" id="gry">
+           <option value=" select"> Select</option>
+           <option value=" Assam"> male</option>
+           <option value=" Bihar"> female</option>
+       </select><br><br>
+       Date* <input type ="date">
+  </div><br>
+
+ (ii) I am a nominally resident in the address given in the above (date, month, year) above;<br><br>
+
+I have not applied to include my name in the electoral roll for any other constituency;<br><br>
+
+<input type="radio">(iv) My name has not been already included in the electoral roll for this or any other assembly / parliamentary constituency<br><br>
+
+Or<br><br>
+
+<input type="radio"> Name would have been included in electoral rolls of the State's constituency, in which I was already residing in the address mentioned below, and if so, then I request that it be removed from that electoral roll. Go.<br>
+<div>
+Location* <input type="text" placeholder="">  Date <input type="date">
+</div><br>
+
+I am afraid that the statement or declaration, which is false, to whom I know it or believe that it is false or I do not believe in being true, the People's Representation Act, 1950 (43 of 1950 ) Is punishable under section 31<br><br>
+
+</div><br>
+
+
+<div class="contain">
+   <div id="body5type">
+     Captcha
+   </div>
+   <input type="text" id="capt" readonly="readonly" >
+   <div id="refresh"> <img src="img/refresh.png" width="50px" onclick="cap()"></div>
+
+   <input type="text" id="textinput" placeholder="Enter">
+   <button onclick="validcap()">Check</button>
+ </div> <br>
+
+ <div id="body4type">
+  <input id="button" type="reset">
+  <input id="button" type="submit" name="sub">
+</div><br>
+
+<script type="text/javascript">
+		function cap() {
+
+			var alpha=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V'
+			           ,'W','X','Y','Z','1','2','3','4','5','6','7','8','9','0','a','b','c','d','e','f','g','h','i',
+			           'j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+
+			var a=alpha[Math.floor(Math.random()*62)];
+			var b=alpha[Math.floor(Math.random()*62)];
+			var c=alpha[Math.floor(Math.random()*62)];
+			var d=alpha[Math.floor(Math.random()*62)];
+			var e=alpha[Math.floor(Math.random()*62)];
+			var f=alpha[Math.floor(Math.random()*62)];
+
+			var sum=a + b + c + d + e + f;
+
+			document.getElementById("capt").value=sum;
+		}
+
+             function validcap() {
+			var string1 = document.getElementById('capt').value;
+			var string2 = document.getElementById('textinput').value;
+			if (string1 == string2){
+				alert("Form is validated Succesfully");
+				return true;
+			}
+			else {
+				alert("Please enter a valid captcha");
+				return false;
+			}
+		}
+
+
+	</script>
+
+</form>
+
+
+
+</body>
+
+<footer>
+    <div class="menu">
+        <p>Copyright © 2018 Suven Consultants and Technology Pvt Ltd</p>
+    </div><br><br>
+</footer>
+
+
+ </html>
